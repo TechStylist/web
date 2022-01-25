@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#main{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:red;
+}
+#linediv{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height:60px ;
+    background-color: rgba(0, 217, 255, 0);
+    border-top: .2px solid rgba(255, 255, 255, 0.185);
+    border-bottom: .1px solid rgba(255, 255, 255, 0.185);
+    color: #fff;
+    font-family: Gilroy;
+    font-weight: 100;
+    font-size: 8px;
+    letter-spacing: 4px;
+    z-index: 9;
+    
+}
+#linediv #one{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translate(0%,-50%);
+   
+    
+    
+}
+#linediv #two{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(0%,-50%);
+   
+}
+#left{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: #222;
+}
+
+
+#left #text {
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    font-family:Compacta Std;
+    font-size: 90px;
+    color: #fff;
+    line-height: 140px;
+    z-index: 99;
+}
+#center{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1511980995225-25360cb0aa29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);
+  background-size: cover;
+  background-position: center;
+  
+}
+#center #cbtm{
+    position: absolute;
+    color: #fff;
+    bottom: 5%;
+    left: 1%;
+    
+}
+#cbtm h1, #cbtm h2{
+    
+    font-size: 110px;
+    font-family: Compacta Std;
+}
+#cbtm h1{
+position: absolute;
+top: -40px;
+left: -20px;
+}
+
+#circle{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(214, 15, 15, 0.007);
+    top: 15%;
+    left: 70%;
+    border-radius: 60px;
+    border-top: .2px solid #fff;
+    border-bottom: .2px solid #fff;
+    border-left: .2px solid #fff;
+    border-right: .2px solid #fff;
+    
+}
+#circle h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-weight: 500;
+    font-family: Compacta Std;
+    letter-spacing: 8px;
+    font-size: 20px;
+}
+#right{
+     position: relative;
+    width: 20%;
+    height: 100%;
+    background-color:black;
+}
+#rtop{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1571489555750-c932b569ef5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGhlZWwlMjBib290c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position:center;
+    background-size: cover;
+}
+#rbtm {
+    
+    width: 100%;
+    height: 30%;
+    background-color:black;
+    
+}
+#rbtm h1{
+    position: absolute;
+    font-size: 120px;
+    font-weight: 100;
+    font-family: Compacta Std;
+    bottom: 6%;
+    right: 10%;
+   color:rgba(160, 7, 7, 0.76);
+}
+
+    
+
+#left #text1  {
+    position: absolute;
+    bottom: 8%;
+    left: 12%;
+    font-family:Compacta Std;
+    font-size: 25px;
+    color: #fff;
+    line-height: 40px;
+    
+}
+#circle:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+}
+#circle h3:hover{
+    color: black;
+}
+#linediv:hover{
+    background-color: rgba(255, 255, 255, 0.055);
+    cursor: pointer;
+}
+#rbtm:hover{
+    background-color: #fff;             ;
+}
+#rbtm h1:hover{
+    color: black;
+}
+#left h1:hover{
+    color:transparent;
+    -webkit-text-stroke: 1.4px rgba(255, 255, 255, 0.068);
+}
+#cbtm h2:hover{
+color: transparent;
+-webkit-text-stroke: 1.4px rgba(241, 237, 237, 0.363);
+}
+#cbtm h1:hover{
+color: transparent;
+-webkit-text-stroke: 1.4px rgba(241, 237, 237, 0.363);
+}
